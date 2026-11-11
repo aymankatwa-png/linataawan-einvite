@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Moomken//Linataawan III E-Invite//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:community-dialogue-20261130@moomken.org
+DTSTAMP:20261111T120000Z
+DTSTART:20261130T080000Z
+DTEND:20261130T110000Z
+SUMMARY:Community Dialogue: Women's Leadership and Ending Violence Against
+  Women
+LOCATION:Tripoli Resource Center\, Hay Al-Andalus\, Tripoli\, Libya
+DESCRIPTION:Moomken Organization cordially invites the European Union Dele
+ gation to Libya to a community dialogue held as part of the Linataawan II
+ I project during the 16 Days of Activism.\nRegistration and coffee from 0
+ 9:30. Dialogue 10:00-13:00 (Libya time).
+ORGANIZER;CN=Moomken Organization:mailto:a.abukhutwah@moomken.org
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Community Dialogue tomorrow
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Community Dialogue in 1 hour
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
