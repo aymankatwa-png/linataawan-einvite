@@ -11,7 +11,7 @@ Static site: plain HTML, CSS and JavaScript. No build step, no server code, no d
 ## Settings to check before sharing
 Open `index.html`, find `const CONFIG` near the bottom:
 - `rsvpEmail`: the inbox that receives responses (also in `invite.ics`, ORGANIZER line).
-- `mapUrl`: already set to the Hive Space pin on Google Maps (Havana Street, Hay Al-Andalus).
+- `mapUrl`: already set to the exact pin of the Tripoli Resource Center (32.8745835, 13.1329629).
 
 For good link previews on WhatsApp and email, change this line in `index.html` to the full address:
 `<meta property="og:image" content="https://<rc-domain>/invite/assets/img/og-image.jpg">`
